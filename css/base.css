@@ -1,0 +1,45 @@
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+ul,li,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+del,ins,u,s,a,a:hover{text-decoration:none;} 
+body,textarea,input,button,select,keygen,legend{font:12px/1.5 "Microsoft YaHei","宋体","Arial Narrow","HELVETICA";color:#2B2B2B;outline:0;}
+a{color:#2B2B2B;}  
+a:hover{text-decoration:none;}
+body{background:#FFF;} 
+.clear{ clear:both; margin:0; padding:0; height:0; line-height:0; font-size:0;}	
+.clearfix{ zoom:1;} 
+.clearfix:after {clear:both; height:0; overflow:hidden; display:block; visibility:hidden; content:"."; }
+.blank5{clear:both;height:5px;visibility:hidden;}
+.blank10{clear:both;height:10px;visibility:hidden;}
+.blank15{clear:both;height:15px;visibility:hidden;}
+.blank20{clear:both;height:20px;visibility:hidden;}
+.blank25{clear:both;height:25px;visibility:hidden;}
+.blank30{clear:both;height:30px;visibility:hidden;}
+.blank35{clear:both;height:35px;visibility:hidden;}
+.blank40{clear:both;height:40px;visibility:hidden;}
+.mt-5{margin-top:5px;}
+.mt-10{margin-top:10px;}
+.mt-20{margin-top:20px;} 
+.mt-30{margin-top:30px;}
+.mt-40{margin-top:40px;}
+.mb-10{margin-bottom:10px;}
+.mb-20{margin-bottom:20px;}
+.mb-25{margin-bottom:25px;}
+.mb-30{margin-bottom:30px;}
+.ft-12{font-size:12px;}
+.fl{float:left;}
+.fr{float:right;}

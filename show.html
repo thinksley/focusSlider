@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>焦点图</title>
+<link rel="stylesheet" type="text/css" href="./css/base.css">
+<link rel="stylesheet" type="text/css" href="./css/show.css">
+
+</head>
+<body>
+
+<div class="focus_air">
+	<div class="focus" id="focus">
+	   <ul>
+		   <li><a href=""><img class="big_img" src="images/show/4.jpg"></a></li>
+		   <li><a href=""><img class="big_img" src="images/show/1.jpg"></a></li>
+		   <li><a href=""><img class="big_img" src="images/show/2.jpg"></a></li>
+		   <li><a href=""><img class="big_img" src="images/show/3.jpg"></a></li>
+		   <li><a href=""><img class="big_img" src="images/show/4.jpg"></a></li>
+		   <li><a href=""><img class="big_img" src="images/show/1.jpg"></a></li>
+		   <li><a href=""><img class="big_img" src="images/show/2.jpg"></a></li>
+	   </ul>
+	</div>
+	<div class="focus_thumb" id="focus_thumb">
+		<div class="up" style="display:none"></div>
+		<ol>
+			<li><a class="img_thumb"><img class="list_img" src="images/show/4.jpg" /><i class="light"></i> </a></li>
+			<li><a class="img_thumb"><img class="list_img" src="images/show/1.jpg" /><i class="light"></i> </a></li>
+			<li><a class="img_thumb"><img class="list_img" src="images/show/2.jpg" /><i class="light"></i> </a></li>
+			<li><a class="img_thumb"><img class="list_img" src="images/show/3.jpg" /><i class="light"></i> </a></li>
+			<li><a class="img_thumb"><img class="list_img" src="images/show/4.jpg" /><i class="light"></i> </a></li>
+			<li><a class="img_thumb"><img class="list_img" src="images/show/1.jpg" /><i class="light"></i> </a></li>
+			<li><a class="img_thumb"><img class="list_img" src="images/show/2.jpg" /><i class="light"></i> </a></li>
+
+		</ol>
+		<div class="down" style="display:none"></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="./js/focus.js"></script>
+<script type="text/javascript">
+//调用focus
+new Focus({
+	oUl:'focus',
+	oOl:'focus_thumb'
+})
+	
+</script>
+</body>
+</html>

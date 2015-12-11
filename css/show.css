@@ -1,0 +1,44 @@
+/*焦点图*/
+.focus_air{ width: 760px; height: 408px; overflow: hidden; background:#F3F3F3;}
+.focus{ width:615px; height:408px; float:left; overflow:hidden; margin-right:8px; position:relative}
+.focus ul{ position:absolute; left:0; top:0;}
+.focus ul li{ width:615px; height:408px; position:absolute; overflow: hidden; }
+.focus ul li .big_img {width:100%;}
+.focus_thumb{ width:134px; height: 408px; overflow: hidden; float:left; position: relative;} 
+.focus_thumb .down{ cursor: pointer; width:40px;height: 23px; background:url(../images/show/down.png) no-repeat; position: absolute;left: 50%; margin-left: -20px; bottom: 0; z-index: 55}
+.focus_thumb .up{cursor: pointer; width:40px;height: 23px; background:url(../images/show/up.png) no-repeat; position: absolute; left: 50%; margin-left: -20px; top: 0; z-index: 55}
+.focus_thumb ol{ position: absolute; top: 0;}
+.focus_thumb ol li{ width:130px; height:90px; border:#fff 2px solid; margin-bottom:6px; background:#000}
+.focus_thumb ol li.active { border:#fcd016 2px solid;}
+.focus_thumb ol li.active .list_img{ opacity:1; filter:alpha(opacity:100);}
+.focus_thumb ol li .list_img {width:100%;opacity:0.6; filter:alpha(opacity:60)}
+/*缩略图发光效果*/
+.img_thumb {
+  display: block;
+  height: 90px;
+  overflow: hidden;
+  position: relative;
+  width: 130px;
+}
+.img_thumb:hover .light {
+    left: 200px;
+    transition:all 0.5s ease 0s;
+}
+.img_thumb .light {
+  position: absolute;
+left: -120px;
+top: 0;
+width: 120px;
+height: 120px;
+background-image: -moz-linear-gradient(0deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0));
+background-image: -webkit-linear-gradient(0deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0));
+transform: skewx(-25deg);
+-o-transform: skewx(-25deg);
+-moz-transform: skewx(-25deg);
+-webkit-transform: skewx(-25deg);
+-moz-transition: 0s;
+-o-transition: 0s;
+-webkit-transition: 0s;
+transition: 0s;
+}
+/*焦点图 END*/
